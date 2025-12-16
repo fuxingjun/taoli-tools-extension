@@ -1,28 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Taoli Tools Extension",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "Taoli Tools Extension",
   "permissions": ["declarativeNetRequest"],
-  "host_permissions": [
-    "*://*.larksuite.com/*",
-    "*://*.gate.io/*",
-    "*://*.gate.com/*",
-    "*://*.gateio.ws/*",
-    "*://*.bitget.com/*",
-    "*://*.binance.com/*",
-    "*://*.coinbase.com/*",
-    "*://*.okx.com/*",
-    "*://*.backpack.exchange/*",
-    "*://*.apex.exchange/*",
-    "*://*.asterdex.com/*",
-    "*://*.bybit.com/*",
-    "*://*.mexc.com/*",
-    "*://*.grvt.io/*",
-    "*://*.pacifica.fi/*",
-    "*://*.extended.exchange/*",
-    "*://*.standx.com/*"
-  ],
+  "host_permissions": ["*://*/*"],
   "background": {
     "service_worker": "background.js"
   },
